@@ -7,7 +7,7 @@ define nginx::vhost (
     ensure => direcotry,
   }
   
-  file { "$docroot}/index.html":
+  file { "${docroot}/index.html":
     ensure => file,
     content => template('nginx/index.html.erb')
   }
