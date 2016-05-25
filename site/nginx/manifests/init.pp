@@ -1,4 +1,6 @@
 class nginx {
+  $docroot = '/var/www'
+  
   File {
     owner => 'root',
     group => 'root',
