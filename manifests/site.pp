@@ -51,9 +51,9 @@ node default {
   $message = hiera('message')
   notify { $message: }
   
-  class {'nginx':
-    root => '/var/www/sidsilva',
-  }
+  #class {'nginx':
+  #  root => '/var/www/sidsilva',
+  #}
   
   #file { '/etc/motd':
   #  ensure => file,
