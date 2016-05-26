@@ -43,10 +43,10 @@ node default {
   # Example:
   #   class { 'my_class': }
 
-  if $::virtual != 'physical' {
-    $vmname = capitalize($::fqdn)
-    notify { "This is a ${vmname} virtual machine.": }
-  }
+  #if $::virtual != 'physical' {
+  #  $vmname = capitalize($::fqdn)
+  #  notify { "This is a ${vmname} virtual machine.": }
+  #}
   
   #$message = hiera('message')
   #notify { $message: }
