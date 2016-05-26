@@ -52,7 +52,7 @@ node default {
   notify { $message: }
   
   class {'nginx':
-    root => '/var/www/html',
+    root => '/var/www/sidsilva',
   }
   
   #file { '/etc/motd':
