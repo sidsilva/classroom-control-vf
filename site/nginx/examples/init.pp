@@ -4,4 +4,6 @@ if $::osfamily == 'Windows' {
   }
 }
 
-include nginx
+node default {
+  include nginx
+}
