@@ -1,2 +1,2 @@
 ---
-message: Testing a hiera datasource from $host or $vmname
+message: Testing a hiera datasource from ${::host} or ${::vmname} or ${::fqdn}
