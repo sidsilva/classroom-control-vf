@@ -1,3 +1,5 @@
-node default {
-  include nginx
-}
+#node default {
+#  include nginx
+#}
+
+include nginx
