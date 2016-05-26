@@ -49,7 +49,7 @@ node default {
   }
   
   $message = hiera('message')
-  notify { $fqdn - $message: }
+  notify { $message: }
   
   #file { '/etc/motd':
   #  ensure => file,
